@@ -7,7 +7,6 @@
  Description : Simple Parser in C
  ============================================================================
  */
-
 #include <stdio.h>
 #include <stdlib.h>
 #include "stack.h"
@@ -136,7 +135,6 @@ int main(void) {
          default: goto Problem;
       }
 
-
    Octal2:
       a = getchar();
       switch(a){
@@ -169,7 +167,6 @@ int main(void) {
       printf("Su entrada no es reconocida por este parser");
       return 0;
 }
-
 
 int oposite(int c) {
    switch(c) {
